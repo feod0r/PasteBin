@@ -12,12 +12,7 @@
 
 <body>
     <h1 class="logo">
-        <span style="color:#000563">B</span>
-        <span style="color:#D75065">i</span>
-        <span style="color:#333782">t</span>
-        <span style="color:#000563">B</span>
-        <span style="color:#D75065">i</span>
-        <span style="color:#333782">n</span>
+Pastebin
     </h1>
 
     <h1 class="tagline"> Share your beautiful code in one click </h1>

@@ -23,12 +23,7 @@ $result = $stmt->fetch();
 
 <body>
     <h1 class="logo">
-        <span style="color:#000563">B</span>
-        <span style="color:#D75065">i</span>
-        <span style="color:#333782">t</span>
-        <span style="color:#000563">B</span>
-        <span style="color:#D75065">i</span>
-        <span style="color:#333782">n</span>
+Pastebin
     </h1>
 
     <form action="update.php?id=<?php echo $id; ?>" method="POST">

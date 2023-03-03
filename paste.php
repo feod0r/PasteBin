@@ -72,7 +72,7 @@ $geshi = new GeSHi($source, $language);
         <div class="button">
             <button onclick="copyFunction()">Share BitBin</button>
             <a href="edit_paste.php?id=<?php echo $id; ?>"><button>Edit BitBin</button></a>
-            <a href="https://projects.bit-academy.nl/~arcade_xampp/"><button>Main Page</button></a>
+            <a href="index.php"><button>Main Page</button></a>
         </div>
     </div>
 
