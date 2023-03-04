@@ -2,7 +2,7 @@
 include "connection.php";
 
 function generateRandomString($length = 20) {
-    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyz';//ABCDEFGHIJKLMNOPQRSTUVWXYZ
     $charactersLength = strlen($characters);
     $randomString = '';
     for ($i = 0; $i < $length; $i++) {
@@ -12,7 +12,7 @@ function generateRandomString($length = 20) {
 }
 
 //$id = uniqid();
-$id = generateRandomString(5);
+$id = generateRandomString(6);
 $content = $_POST["content"];
 $syntax = $_POST["syntax-highlighting"];
 $ip = $_SERVER['REMOTE_ADDR'];
