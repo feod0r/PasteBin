@@ -2,7 +2,7 @@
 include "connection.php";
 
 $id = $_GET["id"];
-$content = $_POST["update_content"];
+$content = $_POST["content"];
 
 $stmt = $conn->prepare("UPDATE pastes SET content = :content WHERE id = :id");
 $stmt->bindParam(":content", $content);

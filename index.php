@@ -13,7 +13,7 @@
     <h1 class="tagline"> Share your beautiful code in one click </h1>
 
     <form action="insert.php" method="POST">
-        <textarea name="content" id="" cols="30" rows="30" class="w-100 p-3"></textarea>
+        <textarea name="content" id="" cols="30" rows="20" class="w-100 p-3"></textarea>
         </br>
         <label for="syntax-highlighting" class="label">Syntax Highlighting:</label>
         <select name="syntax-highlighting" class="form-select">
@@ -27,8 +27,11 @@
         </select>
         </br>
         <button type="submit" class="btn btn-success">Create New Paste</button>
-
+        
     </form>
+</br>
+<a href="list.php"><button class="btn btn-info">List Pastes</button></a>
+
 
 </div>
 </body>
